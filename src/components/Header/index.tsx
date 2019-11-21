@@ -13,7 +13,7 @@ function Header({ state, setState }: Props) {
 
   return (
     <header
-      className="flex items-center fixed top-0 left-0 right-0"
+      className="flex items-center fixed top-0 left-0 right-0 z-20 bg-white shadow"
       style={{ height: '82.64px' }}
     >
       <div className="sidebar-button" onClick={onClick}>
@@ -51,7 +51,7 @@ function Header({ state, setState }: Props) {
             <input
               className="input pl-10 pr-4 py-2 block w-full bg-gray-300 rounded-lg text-sm placeholder-gray-600 text-white focus:bg-white focus:placeholder-gray-700 focus:text-gray-600"
               type="text"
-              placeholder="Search"
+              placeholder=""
             />
           </div>
         </div>

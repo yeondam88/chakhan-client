@@ -8370,6 +8370,7 @@ video {
 }
 
 .input {
+  padding: 0.75rem;
   color: #2d3748;
   border-width: 1px;
   border-color: #e2e8f0;
